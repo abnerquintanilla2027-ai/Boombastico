@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajes en Miami</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Interno -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 10px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Viaja Miami</a>
+    </div>
+  </nav>
+
+  <!-- Imagen principal / Hero -->
+  <div class="hero">
+    <h1>Descubre Miami</h1>
+  </div>
+<br>
+  <!-- Carrusel mejorado -->
+  <div id="miCarrusel" class="carousel slide" data-bs-ride="carousel" style="max-height: 500px; overflow: hidden;">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="https://wallpaperbat.com/img/616894-miami-beach-1600x900-wallpaper-teahubio.jpg" class="d-block w-100" alt="Playa 1">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Playas increíbles</h5>
+          <p>Relájate en la arena blanca de Miami.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://aldiaenmiami.com/wp-content/uploads/2021/02/Miami-playas.jpg" class="d-block w-100" alt="Playa 2">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Paseos en bote</h5>
+          <p>Explora la bahía de Biscayne desde el agua.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://www.top10todolist.com/uploads/1/4/5/0/14501210/south-beach-7_1_orig.jpg" class="d-block w-100" alt="Playa 3">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Vida nocturna</h5>
+          <p>Descubre la música, luces y ritmo de Miami Beach.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botones de navegación -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="container mt-5">
+    <h2>Explora lo mejor de la ciudad</h2>
+    <p>Viajar por Miami nunca fue tan fácil. Encuentra los mejores tours, playas, restaurantes y vida nocturna de la ciudad del sol.</p>
+    <a href="#" class="btn btn-primary">Ver tours disponibles</a>
+  </div>
+
+  <!-- Pie de página -->
+  <div class="footer">
+    <p>&copy; 2025 Viajes Miami. Todos los derechos reservados.</p>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
